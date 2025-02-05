@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1>HELLO I M ABHAY VAISHNAV</H1>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <section class="home">
+        <div class="home-info">
+            <h1 style="font-size: 40px;">Abhay Vaishnav</h1>
+            <h2>I'm a 
+                <span style="--i:4" data-text="Full Stack Devloper">Full Stack Devloper</span>
+                <span style="--i:3" data-text="Designer">Designer</span>
+                <span style="--i:2" data-text="Gamer">Gamer</span>
+                <span style="--i:1" data-text="Coder" >Coder</span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsam!</p>
+
+            <div class="btn-sci">
+                <a href="#" class="btn">Download Resume</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="https://github.com/Abhayvaishnav09/PORTFOLIO_FIRST/blob/main/projectphoto.png?raw=true" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
 </body>
 </html>
